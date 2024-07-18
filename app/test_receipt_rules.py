@@ -86,5 +86,6 @@ def test_points_for_trimmed_length_of_item(target_items: list[Item]) -> None:
 def test_calculate_points(target_receipt: Receipt) -> None:
     assert calculate_points(target_receipt) == 28
 
+
 def test_calculate_points(corner_market_receipt: Receipt) -> None:
     assert calculate_points(corner_market_receipt) == 109
